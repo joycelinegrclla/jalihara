@@ -1,0 +1,11 @@
+<style name="BlueTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+    <item name="boxStrokeColor">@color/blue</item>
+    <item name="shapeAppearanceOverlay">@style/BlueShapeAppearance</item>
+</style>
+
+
+<style name="BlueShapeAppearance">
+<item name="cornerFamily">rounded</item>
+<item name="cornerSize">8dp</item>
+<item name="strokeColor">@color/blue</item> <!-- Ubah warna border menjadi biru -->
+</style>
