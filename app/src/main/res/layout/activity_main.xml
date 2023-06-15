@@ -42,7 +42,7 @@
         <ImageView
             android:layout_width="300dp"
             android:layout_height="170dp"
-            android:background="@color/black">
+            android:background="@color/black"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -81,7 +81,7 @@
             android:textStyle="bold"
             android:layout_marginBottom="5dp"/>
 
-        // bordernya gak bisa biru
+<!--        //bordernya gak bisa biru-->
         <com.google.android.material.textfield.TextInputLayout
             style="@style/BlueTextInputLayout"
             android:layout_width="280dp"
@@ -106,7 +106,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginBottom="5dp"/>
 
-        // paddingnya agak manual karena beda sm text
+<!--        // paddingnya agak manual karena beda sm text-->
         <EditText
             android:id="@+id/editTextNumber"
             android:layout_width="match_parent"
@@ -133,19 +133,19 @@
             android:layout_height="match_parent" >
 
             <RadioButton
-                android:id="@+id/radioButton"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:text="Blue              Rp 200.000" />
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Blue              Rp 200.000" />
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/radioButton2"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:text="Gold              Rp 300.000" />
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/radioButton3"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:text="Platinum      Rp 400.000" />
