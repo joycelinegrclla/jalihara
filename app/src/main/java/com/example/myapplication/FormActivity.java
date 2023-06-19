@@ -9,7 +9,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class FormActivity extends AppCompatActivity {
 
@@ -17,6 +16,7 @@ public class FormActivity extends AppCompatActivity {
     EditText quantity;
     RadioGroup boothType;
     TextView errorMessage;
+    TextView totalPrice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +27,7 @@ public class FormActivity extends AppCompatActivity {
         quantity = findViewById(R.id.qtyTxt);
         boothType = findViewById(R.id.radioGroup);
         errorMessage = findViewById(R.id.errorMessage);
+        totalPrice = findViewById(R.id.totalPrice);
 
         Button submitBtn = findViewById(R.id.submitBtn);
         submitBtn.setOnClickListener(new View.OnClickListener() {
@@ -35,6 +36,22 @@ public class FormActivity extends AppCompatActivity {
                 validateForm();
             }
         });
+    }
+
+    private int getBoothPrice(int radioButtonId) {
+        int price = 0;
+        switch (radioButtonId) {
+            case R.id.radioButton1:
+                price = 200000;
+                break;
+            case R.id.radioButton2:
+                price = 300000;
+                break;
+            case R.id.radioButton3:
+                price = 400000;
+                break;
+        }
+        return price;
     }
 
     private void validateForm() {
@@ -55,9 +72,16 @@ public class FormActivity extends AppCompatActivity {
             errorMessage.setText("Booth type must be selected.");
             errorMessage.setVisibility(View.VISIBLE);
         } else {
+
+            int quantity = Integer.parseInt(quantityValue);
+            int price = getBoothPrice(selectedRadioButtonId);
+            int totalAmount = quantity * price;
+
+            totalPrice.setText("Rp " + totalAmount);
+
 //            returnnya masih gak bener
-            redirectToHome();
-            return;
+//            redirectToHome();
+//            return;
         }
     }
 
