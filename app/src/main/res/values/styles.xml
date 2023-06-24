@@ -7,6 +7,6 @@
     <style name="BlueShapeAppearance" parent="ShapeAppearance.MaterialComponents">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">8dp</item>
-        <item name="strokeColor">@color/blue</item> <!-- Mengubah warna border menjadi biru -->
+        <item name="strokeColor">@color/blue</item>
     </style>
 </resources>
