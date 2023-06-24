@@ -10,16 +10,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58329a1d-3520-4c34-bae3-40d24f638ad9" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/FormActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/FormActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/form.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/form.xml" afterDir="false" />
+=======
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/HomeActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/input_box.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+<<<<<<< Updated upstream
+=======
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/FormActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/FormActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/form.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/form.xml" afterDir="false" />
+>>>>>>> 4caa13fbe773ad04ac5408fe3d43c411d5b306d1
+>>>>>>> Stashed changes
+>>>>>>> tesa
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\bcamaster\.android\avd\Pixel_6_API_33.avd]" />
+=======
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[9f8793a3]" />
+<<<<<<< Updated upstream
+=======
+=======
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\bcamaster\.android\avd\Pixel_6_API_33.avd]" />
+>>>>>>> 4caa13fbe773ad04ac5408fe3d43c411d5b306d1
+>>>>>>> Stashed changes
+>>>>>>> tesa
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -28,6 +68,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+=======
+<<<<<<< HEAD
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+=======
+>>>>>>> 4caa13fbe773ad04ac5408fe3d43c411d5b306d1
+>>>>>>> Stashed changes
+>>>>>>> tesa
         <option value="Class" />
       </list>
     </option>
@@ -55,6 +108,23 @@
     &quot;last_opened_file_path&quot;: &quot;D:/CAWU 5/COMP8129001 - USER EXPERIENCE/LAB/jalihara/jalihara&quot;
   }
 }</component>
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.myapplication" />
+    </key>
+  </component>
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> 4caa13fbe773ad04ac5408fe3d43c411d5b306d1
+>>>>>>> Stashed changes
+>>>>>>> tesa
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="My_Application.app.main" />
