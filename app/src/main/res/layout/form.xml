@@ -86,7 +86,7 @@
         <EditText
             android:id="@+id/usernameTxt"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:hint="enter your name"
             android:textSize="13sp"
             android:inputType="text" />
@@ -104,7 +104,7 @@
         <EditText
             android:id="@+id/qtyTxt"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:hint="enter the quantity"
             android:textSize="13sp"
             android:inputType="number"/>
@@ -127,19 +127,19 @@
             <RadioButton
                 android:id="@+id/radioButton1"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="48dp"
                 android:text="Blue              Rp 200.000" />
 
             <RadioButton
                 android:id="@+id/radioButton2"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="48dp"
                 android:text="Gold              Rp 300.000" />
 
             <RadioButton
                 android:id="@+id/radioButton3"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="48dp"
                 android:text="Platinum      Rp 400.000" />
 
         </RadioGroup>
@@ -185,7 +185,7 @@
             <Button
                 android:id="@+id/submitBtn"
                 android:layout_width="100dp"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:background="@color/blue"
                 android:textColor="@color/white"
                 android:textSize="14sp"

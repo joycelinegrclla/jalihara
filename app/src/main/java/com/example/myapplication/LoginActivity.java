@@ -31,14 +31,28 @@ public class LoginActivity extends AppCompatActivity{
                 String password = passwordEditText.getText().toString().trim();
 
                 if (username.isEmpty()) {
-                    pesan_error.setText("Username is required");
+                    pesan_error.setText("Please fill the username");
                     pesan_error.setVisibility(View.VISIBLE);
                     usernameEditText.requestFocus();
                     return;
                 }
 
-                if (password.length() < 3) {
-                    pesan_error.setText("Password must be at least 3 characters");
+                if (username.length() <=5){
+                    pesan_error.setText("Username length must be more than 5");
+                    pesan_error.setVisibility(View.VISIBLE);
+                    usernameEditText.requestFocus();
+                    return;
+                }
+
+                if (password.isEmpty()) {
+                    pesan_error.setText("Please fill the password");
+                    pesan_error.setVisibility(View.VISIBLE);
+                    usernameEditText.requestFocus();
+                    return;
+                }
+
+                if (password.length() <= 8) {
+                    pesan_error.setText("Password length must be more than 8");
                     pesan_error.setVisibility(View.VISIBLE);
                     usernameEditText.requestFocus();
                     return;

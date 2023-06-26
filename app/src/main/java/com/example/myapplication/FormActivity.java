@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import com.google.android.material.navigation.NavigationView;
 
 public class FormActivity extends AppCompatActivity {
 
